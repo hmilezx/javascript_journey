@@ -38,15 +38,14 @@ function imthatGuy(name) {
      Name = name;
     try{
         
-        if (normalizedName === "miles")
+        if (normalizedName === "miles" || normalizedName === "joyce" || normalizedName === "cyrus")
             console.log("You are that nigga");
         else
             console.log("kys"); 
         
     }
     finally{
-        return "${Name} was here";
-
+        return console.log(`${Name} was here`); // I forgot to add console log earlier so it ended up just returning smth which was not used 
     }
 
 }
