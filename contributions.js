@@ -64,10 +64,16 @@
 
 // askName();
 
+function chatAmIcooked() {
 
-
-
-function chatAmIcooked(answer) {
-    
+    return true;
 }
 
+function forthevibes(name) {
+
+}
+
+
+let cooked = chatAmIcooked();
+
+console.log(`chat is  cooked? ${cooked}`);
